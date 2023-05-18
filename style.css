@@ -42,7 +42,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 120px 20px;
 }
 
 .hero p {
@@ -60,7 +60,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 120px 20px;
 }
 
 .content h1 {
@@ -85,7 +85,7 @@ p {
 }
 
 .content {
-  margin: 30px;
+  margin:80px 30px;
 }
 
 .btn-branding {
@@ -107,7 +107,7 @@ p {
 }
 
 .project-desciption {
-  padding: 120px 60px;
+  padding: 80px 60px;
 }
 
 nav {
@@ -126,16 +126,6 @@ nav li {
   margin-left: 15px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #272142;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
-}
 
 footer .contact-box{
   background: var(--secondary-color);
@@ -179,6 +169,10 @@ footer .social-links a:hover{
 
   h3{
     font-size: 18px;
+  }
+
+  .hero{
+    padding: 100px 20px;
   }
 
   .content {
